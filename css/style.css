@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+} 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.indexh1{
+    font-size: 50px;
+    background-color: #32ae9e;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 15px solid #2730a5;
+    text-align: center;
+    box-shadow: 0 0 20px 10px #0c0202;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.img1{
+    margin-bottom: 20px;
+    width: 400px;
+    height: auto;
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    margin-left: auto; /* Centra horizontalmente la imagen */
+    margin-right: auto; /* Centra horizontalmente la imagen */
+}
+
+#bodyindex{
+    background-color: aquamarine;
+}
+
+.div-index{
+    width: 400px; /* Ancho del div que contiene los enlaces */
+    margin: 0 auto; /* Centra horizontalmente el div */
+    text-align: left; /* Alinea el texto a la izquierda dentro del div */
+    background-color: #aa8c8c; /* Color de fondo del div */
+    padding: 40px 20px 20px 20px; /* Espacio interno dentro del div */
+    display: flex; /* Activa el modelo de caja flex */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    
+}
+.div-index a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #ffffff; /* Color del texto de los enlaces */
+    margin-bottom: 10px; /* Espacio entre los enlaces */
+}
+
+#ulist li{
+    padding: 10px;
+
+}
